@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AlphaStore</string>
+
+    <string name="btn_loja">Continuar sem entrar</string>
+    <string name="btn_funcionario">Funcionário</string>
+    <string name="btn_entrar">Entrar</string>
+
+//Login
+    <string name="hint_email">Email</string>
+    <string name="hint_senha">Senha</string>
+    <string name="txt_esqueci_senha">Esqueci minha senha</string>
+</resources>

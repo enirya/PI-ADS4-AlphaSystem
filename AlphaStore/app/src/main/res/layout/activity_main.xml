@@ -22,74 +22,6 @@
             android:layout_height="540dp"
             android:layout_weight="1">
 
-            <Button
-                android:id="@+id/btnLoja"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="@font/dm_sans_bold"
-                android:text="@string/btn_loja"
-                app:backgroundTint="#000051"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView"
-                app:layout_constraintVertical_bias="0.262" />
-
-            <Button
-                android:id="@+id/btnFuncionario"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/dm_sans_bold"
-                android:text="@string/btn_funcionario"
-                app:backgroundTint="#000051"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnLoja" />
-
-            <Button
-                android:id="@+id/btnLogin"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/dm_sans_bold"
-                android:text="@string/btn_entrar"
-                app:backgroundTint="#000051"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnFuncionario" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:fontFamily="@font/dm_sans_bold"
-                android:text="Não tem uma conta?"
-                android:textColor="#FFFFFF"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
-
-            <TextView
-                android:id="@+id/txtCadastrar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:fontFamily="@font/dm_sans_bold"
-                android:minHeight="48dp"
-                android:onClick="onClick"
-                android:text="Cadastre-se"
-                android:textColor="#000051"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
-
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="246dp"
@@ -99,6 +31,71 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/alpha_store_logo" />
+
+            <LinearLayout
+                android:layout_width="316dp"
+                android:layout_height="276dp"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnLoja"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="@string/btn_loja"
+                    app:backgroundTint="#000051"
+                    app:cornerRadius="10dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnFuncionario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="@string/btn_funcionario"
+                    app:backgroundTint="#000051"
+                    app:cornerRadius="10dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="@string/btn_entrar"
+                    app:backgroundTint="#000051"
+                    app:cornerRadius="10dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="Não tem uma conta?"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/txtCadastrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:minHeight="48dp"
+                    android:onClick="onClick"
+                    android:text="Cadastre-se"
+                    android:textAlignment="center"
+                    android:textColor="#000051" />
+            </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

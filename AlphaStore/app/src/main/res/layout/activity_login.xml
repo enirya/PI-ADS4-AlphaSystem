@@ -8,32 +8,16 @@
     tools:context=".LoginActivity"
     android:background="@drawable/gradiente">
 
-  <LinearLayout
-      android:layout_width="358dp"
-      android:layout_height="251dp"
-      android:orientation="vertical"
-      android:background="@drawable/rounded_outline"
+  <androidx.cardview.widget.CardView
+      android:layout_width="350dp"
+      android:layout_height="290dp"
+      app:cardElevation="20dp"
+      app:cardCornerRadius="10dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.491"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      >
+      app:layout_constraintVertical_bias="0.498" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:hint="@string/hint_email"
-        android:layout_margin="20dp"
-        android:background="@drawable/rounded_outline"
-        app:boxStrokeColor="@color/medium_grey"
-        app:boxBackgroundColor="@color/white">
-      <com.google.android.material.textfield.TextInputEditText
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-
-  </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

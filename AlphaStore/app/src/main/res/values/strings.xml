@@ -5,8 +5,9 @@
     <string name="btn_funcionario">Funcionário</string>
     <string name="btn_entrar">Entrar</string>
 
-//Login
+    //Login
     <string name="hint_email">Email</string>
     <string name="hint_senha">Senha</string>
     <string name="txt_esqueci_senha">Esqueci minha senha</string>
+    <string name="imagem">imagem</string>
 </resources>

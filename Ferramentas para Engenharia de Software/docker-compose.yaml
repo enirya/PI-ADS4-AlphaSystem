@@ -1,0 +1,33 @@
+version: '3.0'
+services:
+  spring_boot_com_postgre:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: spring_boot_com_postgre/api
+    ports:
+      - "8080:8080"
+
+    
+    environment:
+      - ADDITIONAL_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005 -Xmx1G -Xms128m -XX:MaxMetaspaceSize=128m
+      - PROFILE=dev
+    depends_on:
+      - db   
+    links:
+      - db 
+  db:
+    image: postgres
+    ports: 
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: spring_boot_postgres_db
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 12345
+
+    
+
+    volumes:
+      - ./docker/sysuserdb_volume:/var/lib/postgres  
+
+  

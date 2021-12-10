@@ -10,4 +10,55 @@
     <string name="hint_senha">Senha</string>
     <string name="txt_esqueci_senha">Esqueci minha senha</string>
     <string name="imagem">imagem</string>
+    //Registrar
+    <array name="spn_cidades">
+        <item>Goiânia</item>
+        <item>Brasília</item>
+        <item>São Paulo</item>
+    </array>
+    <string name="txt_Politica">Concordo com os termos de Política e Privacidade</string>
+    <string name="btn_Registrar">Registrar</string>
+    <string name="c">C</string>
+
+    //func actv
+    <string name="tab_pedidos">Pedidos</string>
+    <string name="tab_reg_prod">Produtos</string>
+    <string name="tab_reg_cat">Categorias</string>
+
+    //atv list view
+    <string name="identificador_nome_cliente_pedido">Nome Cliente</string>
+    <string name="identificador_id_pedido">ID Pedido</string>
+    <string name="identificador_data_pedido">Data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // Fragment
+    <string name="lista_produto">Lista de Produto</string>
+    <string name="cadastro_produto">Cadastro de Produto</string>
+    <string name="lista_categoria">Lista de Categorias</string>
+    <string name="cadastro_categoria">Cadastro de Categorias</string>
+    <string name="lista_pedidos">Lista de Pedidos</string>
+
+    <string name="btn_inserir">Inserir ...</string>
+    <string name="btn_gravar">Gravar</string>
+    <string name="btn_excluir">Excluir</string>
+    <string name="menu_titulo">Menu</string>
+
+    <string name="codigo">Código</string>
+    <string name="nome">Nome</string>
+    <string name="custo">Custo</string>
+    <string name="preco_venda">Preço Venda</string>
+    <string name="unidade">Unidade</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="categoria">Categoria</string>
+
+    <string name="produto_inserido">Produto %s foi inserido com o id = %s</string>
+    <string name="produto_alterado">Produto %s foi alterado com sucesso</string>
+    <string name="produto_excluido">Produto %s foi excluído com sucesso!</string>
+
+    <string name="categoria_inserido">Categoria %s foi inserida com o id = %s</string>
+    <string name="categoria_alterado">Categoria %s foi alterada com sucesso</string>
+    <string name="categoria_excluido">Categoria %s foi excluída com sucesso!</string>
+    // End Fragment
+
 </resources>

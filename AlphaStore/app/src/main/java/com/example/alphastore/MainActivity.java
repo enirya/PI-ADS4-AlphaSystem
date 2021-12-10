@@ -1,18 +1,16 @@
 package com.example.alphastore;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toolbar;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btnLoja;
-    Button btnFuncionario;
     Button btnLogin;
     TextView txtCadastrar;
 
@@ -23,8 +21,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnLoja = findViewById(R.id.btnLoja);
         btnLoja.setOnClickListener(this);
-        btnFuncionario = findViewById(R.id.btnFuncionario);
-        btnFuncionario.setOnClickListener(this);
         btnLogin = findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(this);
         txtCadastrar = findViewById(R.id.txtCadastrar);
@@ -38,9 +34,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnLoja:
                 Intent telaLoja = new Intent(this, LojaActivity.class);
                 startActivity(telaLoja);
-                break;
-            case R.id.btnFuncionario:
-                // do your code
                 break;
             case R.id.btnLogin:
                 Intent telaLogin = new Intent(this, LoginActivity.class);

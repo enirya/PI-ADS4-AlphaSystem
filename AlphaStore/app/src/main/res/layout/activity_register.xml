@@ -7,29 +7,215 @@
     tools:context=".RegisterActivity"
     android:background="@drawable/gradiente">
 
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="29dp"
-        android:layout_height="729dp"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck">
+        app:layout_constraintTop_toTopOf="parent">
 
-    </ScrollView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="348dp"
+            android:layout_height="673dp"
+            android:layout_marginTop="32dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="360dp"
-        android:layout_height="400dp"
-        app:cardCornerRadius="10dp"
-        app:cardElevation="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/edtNome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Nome"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/edtCpf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="CPF"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/edtTelefone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Telefone"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="E-mail"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/edtSenha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Senha"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/edtSenhaConfirma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Senha (confirmação)"
+                    android:inputType="textPassword" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableLayout
+                        android:id="@+id/tableLayout"
+                        android:layout_width="0dp"
+                        android:layout_height="143dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+                                android:id="@+id/edtLogradouro"
+                                android:layout_width="163dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="Logradouro"
+                                android:inputType="text" />
+
+                            <Space
+                                android:layout_width="30dp"
+                                android:layout_height="10dp" />
+
+                            <EditText
+                                android:id="@+id/edtComplemento"
+                                android:layout_width="152dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="Complemento"
+                                android:inputType="text" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+                                android:id="@+id/edtCep"
+                                android:layout_width="163dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="CEP"
+                                android:inputType="number" />
+
+                            <Space
+                                android:layout_width="30dp"
+                                android:layout_height="10dp" />
+
+                            <EditText
+                                android:id="@+id/edtNumero"
+                                android:layout_width="152dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="Número"
+                                android:inputType="number" />
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <EditText
+                                android:id="@+id/edtBairro"
+                                android:layout_width="163dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="Bairro"
+                                android:inputType="text" />
+
+                            <Space
+                                android:layout_width="30dp"
+                                android:layout_height="10dp" />
+
+                            <Spinner
+                                android:id="@+id/spnUf"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:entries="@array/spn_cidades"
+                                android:minHeight="48dp"
+                                android:visibility="visible"
+                                tools:visibility="visible" />
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="36dp">
+
+                    <TextView
+                        android:id="@+id/txtPoliticaPrivacidade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="fill"
+                        android:text="@string/txt_Politica" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxPoliticaProvacidade"
+                        android:layout_width="34dp"
+                        android:layout_height="21dp"
+                        android:text="CheckBox" />
+                </TableRow>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnRegistrar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:text="@string/btn_Registrar"
+                        app:backgroundTint="@color/dark_blue" />
+                </TableRow>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,10 +10,20 @@
         <entry key="..\:/Users/Tayrine/AndroidStudioProjects/AlphaStore/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/Tayrine/AndroidStudioProjects/AlphaStore/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Tayrine/AndroidStudioProjects/AlphaStore/app/src/main/res/layout/activity_register.xml" value="0.11322463768115942" />
-        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_loja.xml" value="0.25" />
-        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/drawable/rounded_outline.xml" value="0.2203125" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_carrinho.xml" value="0.25" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_func.xml" value="0.22" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_item_view.xml" value="0.33" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_item_view_cart.xml" value="0.33" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_list_view.xml" value="0.33" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_loja.xml" value="0.21606648199445982" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_main.xml" value="0.21691176470588236" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/fragment_categorias.xml" value="0.25" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/fragment_pedidos.xml" value="0.25" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/fragment_produtos.xml" value="0.33" />
+        <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/layout/pedido_cell.xml" value="0.25" />
         <entry key="..\:/Users/Tayrine/Documents/GitHub/PI-ADS4-AlphaSystem/AlphaStore/app/src/main/res/menu/menu_settings.xml" value="0.20416666666666666" />
       </map>
     </option>
